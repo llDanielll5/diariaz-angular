@@ -1,0 +1,47 @@
+* {
+  font-family: "Montserrat", sans-serif;
+  color: #1b1d47;
+}
+
+.container {
+  padding: 0.5rem 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.image-logo {
+  width: 120px;
+  height: 70px;
+}
+
+.link-container {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  column-gap: 0.5rem;
+}
+
+.link-icon {
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.link-icon:hover {
+  opacity: 0.8;
+}
+
+.link-text {
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.login-button {
+  border: 2px solid #ff4979;
+  border-radius: 1rem;
+  background-color: white;
+  color: #ff4979;
+  padding: 0.5rem;
+  display: flex;
+  align-items: center;
+}
